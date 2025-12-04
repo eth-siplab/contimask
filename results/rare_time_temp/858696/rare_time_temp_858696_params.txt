@@ -1,0 +1,15 @@
+some_index: 858696
+time: 2025-12-02 12:45:32
+seed: 0
+N_ex: 5
+explainers: ['MFF-FMA-E', 'MFF-GB-E', 'MFF-D-E']
+N_feat: 3
+N_time: 100
+N_select: 5
+device: cuda:0
+lambda_l1: 1e-05
+lambda_tv: 1e-06
+lambda_sharp: 1.0000000000000001e-07
+n_epochs: 1000
+lr: 0.01
+hidden_dim: 128

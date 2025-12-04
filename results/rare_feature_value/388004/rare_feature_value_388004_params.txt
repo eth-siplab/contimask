@@ -1,0 +1,20 @@
+some_index: 388004
+time: 2025-12-04 01:46:04
+seed: 0
+N_ex: 10
+explainers: ['MFF-D-E']
+N_feat: 50
+N_time: 100
+N_select: 5
+device: cuda:0
+lambda_l1: 0.1
+lambda_tv: 0.001
+lambda_sharp: 0
+n_epochs: 2000
+lr: 0.01
+hidden_dim: 16
+L: 24
+popsize: 100
+radius_init: 3
+center_learning_rate: 0.5
+stdev_learning_rate: 0.3
