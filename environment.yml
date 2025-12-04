@@ -1,0 +1,12 @@
+name: contimask
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip=25.0
+  - pip:
+      - evotorch==0.5.1
+      - matplotlib==3.10.1
+      - numpy==1.26.4
+      - tqdm
